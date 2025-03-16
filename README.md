@@ -6,7 +6,7 @@ A CLI utility for automatically translating untranslated strings in gotext local
 
 - Processes gotext JSON format files
 - Identifies and translates only untranslated strings (empty translation field)
-- Uses OpenAI GPT models for translation
+- Supports multiple LLM providers (OpenAI and Anthropic)
 - Preserves JSON structure, placeholders, and special formatting
 - Configurable via file or environment variables
 - Interactive translation process with progress tracking
@@ -63,28 +63,44 @@ gotext-translate translate --source locales/en-US/messages.gotext.json --target-
 
 ### Configuration File
 
-Create a YAML or JSON configuration file (e.g., translator-config.yaml):
+Create a YAML or JSON configuration file (e.g., translator-config.yaml). You can configure either OpenAI or Anthropic as your LLM provider:
 
 ```yaml
+# For OpenAI:
 llm:
   provider: openai
-  api_key: your-api-key-here
-  model: gpt-3.5-turbo
+  api_key: your-openai-api-key
+  model: gpt-3.5-turbo  # or gpt-4, etc.
+```
+
+```yaml
+# For Anthropic:
+llm:
+  provider: anthropic
+  api_key: your-anthropic-api-key
+  model: claude-3-haiku  # or claude-3-opus, claude-3-sonnet, etc.
 ```
 
 ### Environment Variables
 
 Instead of using a configuration file, you can set the following environment variables:
 
-- `LLM_PROVIDER`: LLM provider (currently only "openai" is supported)
+- `LLM_PROVIDER`: LLM provider ("openai" or "anthropic")
 - `LLM_API_KEY`: API key for the LLM provider
-- `LLM_MODEL`: Model name (e.g., "gpt-3.5-turbo")
+- `LLM_MODEL`: Model name (e.g., "gpt-3.5-turbo" for OpenAI or "claude-3-haiku" for Anthropic)
 
-Example:
+Example for OpenAI:
 ```bash
 export LLM_PROVIDER=openai
-export LLM_API_KEY=your-api-key-here
+export LLM_API_KEY=your-openai-api-key
 export LLM_MODEL=gpt-3.5-turbo
+```
+
+Example for Anthropic:
+```bash
+export LLM_PROVIDER=anthropic
+export LLM_API_KEY=your-anthropic-api-key
+export LLM_MODEL=claude-3-haiku
 ```
 
 ## Input File Format
