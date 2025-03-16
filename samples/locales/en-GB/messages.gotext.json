@@ -1,0 +1,260 @@
+{
+    "language": "en-GB",
+    "messages": [
+        {
+            "id": "Questionary is cancelled",
+            "message": "Questionary is cancelled",
+            "translation": "Questionary is cancelled",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Unknown command",
+            "message": "Unknown command",
+            "translation": "Unknown command",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Welcome to Help My Pet Bot! 🐾\n\nI'm your personal pet care assistant, ready to provide guidance for your furry friends. I can help with:\n\n- Health concerns and symptom assessment\n- Behavior questions and training techniques\n- Diet and nutrition recommendations\n- General pet care and wellness advice\n\nSimply type your question or concern about your pet. You can also include photos to help me better understand your situation.\n\nRemember, while I offer helpful guidance based on reliable veterinary knowledge, I'm not a replacement for professional veterinary care. Always consult a veterinarian for serious medical concerns.\n\nWhat pet question can I help you with today?",
+            "message": "Welcome to Help My Pet Bot! 🐾\n\nI'm your personal pet care assistant, ready to provide guidance for your furry friends. I can help with:\n\n- Health concerns and symptom assessment\n- Behavior questions and training techniques\n- Diet and nutrition recommendations\n- General pet care and wellness advice\n\nSimply type your question or concern about your pet. You can also include photos to help me better understand your situation.\n\nRemember, while I offer helpful guidance based on reliable veterinary knowledge, I'm not a replacement for professional veterinary care. Always consult a veterinarian for serious medical concerns.\n\nWhat pet question can I help you with today?",
+            "translation": "Welcome to Help My Pet Bot! 🐾\n\nI'm your personal pet care assistant, ready to provide guidance for your furry friends. I can help with:\n\n- Health concerns and symptom assessment\n- Behavior questions and training techniques\n- Diet and nutrition recommendations\n- General pet care and wellness advice\n\nSimply type your question or concern about your pet. You can also include photos to help me better understand your situation.\n\nRemember, while I offer helpful guidance based on reliable veterinary knowledge, I'm not a replacement for professional veterinary care. Always consult a veterinarian for serious medical concerns.\n\nWhat pet question can I help you with today?",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "\u003cb\u003eTerms and Conditions\u003c/b\u003e\n\u003ci\u003eLast updated: 30.01.2025\u003c/i\u003e\n\nThank you for using our veterinary advice chatbot (“the Service”). By accessing or using this Service, you agree to be bound by the following terms and conditions (“Terms”). If you do not agree to these Terms, please discontinue use immediately.\n\n\u003cb\u003e1. Nature of the Service\u003c/b\u003e\n1.1 The Service provides general information, guidance, and suggestions for pet care, including (but not limited to) diet, behavior, and training.\n1.2 The Service is not a substitute for professional veterinary diagnosis, treatment, or care. Always seek the advice of a licensed veterinarian for any questions regarding your pet’s health.\n\n\u003cb\u003e2. No Veterinary-Client-Patient Relationship\u003c/b\u003e\n2.1 Using the Service or engaging with our AI assistant does not create a veterinarian-client-patient relationship.\n2.2 Any advice or guidance provided by the Service is based on limited information and should only be considered general information.\n\n\u003cb\u003e3. Limitation of Liability\u003c/b\u003e\n3.1 You acknowledge and agree that use of the Service is at your own risk.\n3.2 Under no circumstances shall the owners, developers, or licensors of the Service be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in connection with your access to or use of the Service.\n3.3 You understand that decisions regarding your pet’s care and any resulting outcomes are your sole responsibility. If you have any doubt about the well-being of your pet or its health, you should immediately consult a licensed veterinarian.\n\n\u003cb\u003e4. No Warranty\u003c/b\u003e\n4.1 The Service is provided on an “as is” and “as available” basis without warranties of any kind, whether express or implied.\n4.2 We do not warrant that the Service will be uninterrupted, error-free, secure, or free from viruses.\n\n\u003cb\u003e5. User Responsibilities\u003c/b\u003e\n5.1 You are responsible for providing accurate and complete information about your pet when seeking advice.\n5.2 You must ensure that all questions, descriptions, and data you provide do not violate any third-party rights or local laws.\n\n\u003cb\u003e6. International Use\u003c/b\u003e\n6.1 The Service is intended for global use. You are responsible for compliance with all applicable local laws and regulations in your jurisdiction.\n6.2 We do not guarantee that the Service or any of its content is appropriate or permissible in any specific country or region.\n\n\u003cb\u003e7. Modifications\u003c/b\u003e\n7.1 We reserve the right to modify or replace these Terms at any time.\n7.2 If we make material changes, we will post the updated Terms and indicate the date of the latest revision at the top of this document.\n\n\u003cb\u003e8. Governing Law and Dispute Resolution\u003c/b\u003e\n8.1 These Terms shall be governed by and construed in accordance with the laws applicable in the jurisdiction of the Service provider’s principal place of business, without regard to conflict-of-law principles.\n8.2 Any dispute arising from or relating to these Terms shall be resolved through amicable negotiation and, if necessary, by binding arbitration or litigation in the applicable courts.\n\n\u003cb\u003e9. Acceptance of Terms\u003c/b\u003e\n9.1 By continuing to access or use the Service, you acknowledge that you have read, understood, and agree to be bound by these Terms.\n9.2 If you do not agree, you must cease using the Service immediately.\n\nIf you have any questions or concerns regarding these Terms, or if you need further clarification, please contact at \u003ci\u003ek.sysoev@me.com\u003c/i\u003e.",
+            "message": "\u003cb\u003eTerms and Conditions\u003c/b\u003e\n\u003ci\u003eLast updated: 30.01.2025\u003c/i\u003e\n\nThank you for using our veterinary advice chatbot (“the Service”). By accessing or using this Service, you agree to be bound by the following terms and conditions (“Terms”). If you do not agree to these Terms, please discontinue use immediately.\n\n\u003cb\u003e1. Nature of the Service\u003c/b\u003e\n1.1 The Service provides general information, guidance, and suggestions for pet care, including (but not limited to) diet, behavior, and training.\n1.2 The Service is not a substitute for professional veterinary diagnosis, treatment, or care. Always seek the advice of a licensed veterinarian for any questions regarding your pet’s health.\n\n\u003cb\u003e2. No Veterinary-Client-Patient Relationship\u003c/b\u003e\n2.1 Using the Service or engaging with our AI assistant does not create a veterinarian-client-patient relationship.\n2.2 Any advice or guidance provided by the Service is based on limited information and should only be considered general information.\n\n\u003cb\u003e3. Limitation of Liability\u003c/b\u003e\n3.1 You acknowledge and agree that use of the Service is at your own risk.\n3.2 Under no circumstances shall the owners, developers, or licensors of the Service be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in connection with your access to or use of the Service.\n3.3 You understand that decisions regarding your pet’s care and any resulting outcomes are your sole responsibility. If you have any doubt about the well-being of your pet or its health, you should immediately consult a licensed veterinarian.\n\n\u003cb\u003e4. No Warranty\u003c/b\u003e\n4.1 The Service is provided on an “as is” and “as available” basis without warranties of any kind, whether express or implied.\n4.2 We do not warrant that the Service will be uninterrupted, error-free, secure, or free from viruses.\n\n\u003cb\u003e5. User Responsibilities\u003c/b\u003e\n5.1 You are responsible for providing accurate and complete information about your pet when seeking advice.\n5.2 You must ensure that all questions, descriptions, and data you provide do not violate any third-party rights or local laws.\n\n\u003cb\u003e6. International Use\u003c/b\u003e\n6.1 The Service is intended for global use. You are responsible for compliance with all applicable local laws and regulations in your jurisdiction.\n6.2 We do not guarantee that the Service or any of its content is appropriate or permissible in any specific country or region.\n\n\u003cb\u003e7. Modifications\u003c/b\u003e\n7.1 We reserve the right to modify or replace these Terms at any time.\n7.2 If we make material changes, we will post the updated Terms and indicate the date of the latest revision at the top of this document.\n\n\u003cb\u003e8. Governing Law and Dispute Resolution\u003c/b\u003e\n8.1 These Terms shall be governed by and construed in accordance with the laws applicable in the jurisdiction of the Service provider’s principal place of business, without regard to conflict-of-law principles.\n8.2 Any dispute arising from or relating to these Terms shall be resolved through amicable negotiation and, if necessary, by binding arbitration or litigation in the applicable courts.\n\n\u003cb\u003e9. Acceptance of Terms\u003c/b\u003e\n9.1 By continuing to access or use the Service, you acknowledge that you have read, understood, and agree to be bound by these Terms.\n9.2 If you do not agree, you must cease using the Service immediately.\n\nIf you have any questions or concerns regarding these Terms, or if you need further clarification, please contact at \u003ci\u003ek.sysoev@me.com\u003c/i\u003e.",
+            "translation": "\u003cb\u003eTerms and Conditions\u003c/b\u003e\n\u003ci\u003eLast updated: 30.01.2025\u003c/i\u003e\n\nThank you for using our veterinary advice chatbot (“the Service”). By accessing or using this Service, you agree to be bound by the following terms and conditions (“Terms”). If you do not agree to these Terms, please discontinue use immediately.\n\n\u003cb\u003e1. Nature of the Service\u003c/b\u003e\n1.1 The Service provides general information, guidance, and suggestions for pet care, including (but not limited to) diet, behavior, and training.\n1.2 The Service is not a substitute for professional veterinary diagnosis, treatment, or care. Always seek the advice of a licensed veterinarian for any questions regarding your pet’s health.\n\n\u003cb\u003e2. No Veterinary-Client-Patient Relationship\u003c/b\u003e\n2.1 Using the Service or engaging with our AI assistant does not create a veterinarian-client-patient relationship.\n2.2 Any advice or guidance provided by the Service is based on limited information and should only be considered general information.\n\n\u003cb\u003e3. Limitation of Liability\u003c/b\u003e\n3.1 You acknowledge and agree that use of the Service is at your own risk.\n3.2 Under no circumstances shall the owners, developers, or licensors of the Service be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in connection with your access to or use of the Service.\n3.3 You understand that decisions regarding your pet’s care and any resulting outcomes are your sole responsibility. If you have any doubt about the well-being of your pet or its health, you should immediately consult a licensed veterinarian.\n\n\u003cb\u003e4. No Warranty\u003c/b\u003e\n4.1 The Service is provided on an “as is” and “as available” basis without warranties of any kind, whether express or implied.\n4.2 We do not warrant that the Service will be uninterrupted, error-free, secure, or free from viruses.\n\n\u003cb\u003e5. User Responsibilities\u003c/b\u003e\n5.1 You are responsible for providing accurate and complete information about your pet when seeking advice.\n5.2 You must ensure that all questions, descriptions, and data you provide do not violate any third-party rights or local laws.\n\n\u003cb\u003e6. International Use\u003c/b\u003e\n6.1 The Service is intended for global use. You are responsible for compliance with all applicable local laws and regulations in your jurisdiction.\n6.2 We do not guarantee that the Service or any of its content is appropriate or permissible in any specific country or region.\n\n\u003cb\u003e7. Modifications\u003c/b\u003e\n7.1 We reserve the right to modify or replace these Terms at any time.\n7.2 If we make material changes, we will post the updated Terms and indicate the date of the latest revision at the top of this document.\n\n\u003cb\u003e8. Governing Law and Dispute Resolution\u003c/b\u003e\n8.1 These Terms shall be governed by and construed in accordance with the laws applicable in the jurisdiction of the Service provider’s principal place of business, without regard to conflict-of-law principles.\n8.2 Any dispute arising from or relating to these Terms shall be resolved through amicable negotiation and, if necessary, by binding arbitration or litigation in the applicable courts.\n\n\u003cb\u003e9. Acceptance of Terms\u003c/b\u003e\n9.1 By continuing to access or use the Service, you acknowledge that you have read, understood, and agree to be bound by these Terms.\n9.2 If you do not agree, you must cease using the Service immediately.\n\nIf you have any questions or concerns regarding these Terms, or if you need further clarification, please contact at \u003ci\u003ek.sysoev@me.com\u003c/i\u003e.",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "\u003cb\u003eHelp My Pet Bot Commands\u003c/b\u003e:\n/start - Start the conversation with the bot\n/terms - View the Terms and Conditions of the service\n/editprofile - Update your pet's profile information, such as name, age, breed, etc. This information helps the bot provide more accurate advice.\n/cancel - Cancel the current questionnaire, if any is in progress (e.g., when you want to start over or change your question)\n/help - View this help message",
+            "message": "\u003cb\u003eHelp My Pet Bot Commands\u003c/b\u003e:\n/start - Start the conversation with the bot\n/terms - View the Terms and Conditions of the service\n/editprofile - Update your pet's profile information, such as name, age, breed, etc. This information helps the bot provide more accurate advice.\n/cancel - Cancel the current questionnaire, if any is in progress (e.g., when you want to start over or change your question)\n/help - View this help message",
+            "translation": "\u003cb\u003eHelp My Pet Bot Commands\u003c/b\u003e:\n/start - Start the conversation with the bot\n/terms - View the Terms and Conditions of the service\n/editprofile - Update your pet's profile information, such as name, age, breed, etc. This information helps the bot provide more accurate advice.\n/cancel - Cancel the current questionnaire, if any is in progress (e.g., when you want to start over or change your question)\n/help - View this help message",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Sorry, I cannot process videos, audio, or documents. Please send your question as text only.",
+            "message": "Sorry, I cannot process videos, audio, or documents. Please send your question as text only.",
+            "translation": "Sorry, I cannot process videos, audio, or documents. Please send your question as text only.",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "I apologize, but your message is too long for me to process. Please try to make it shorter and more concise.",
+            "message": "I apologize, but your message is too long for me to process. Please try to make it shorter and more concise.",
+            "translation": "I apologize, but your message is too long for me to process. Please try to make it shorter and more concise.",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "You have reached the maximum number of requests per hour. Please try again later.",
+            "message": "You have reached the maximum number of requests per hour. Please try again later.",
+            "translation": "You have reached the maximum number of requests per hour. Please try again later.",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "We have reached our daily request limit. Please come back tomorrow when our budget is refreshed.",
+            "message": "We have reached our daily request limit. Please come back tomorrow when our budget is refreshed.",
+            "translation": "We have reached our daily request limit. Please come back tomorrow when our budget is refreshed.",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Please, provide your question in text format along with photo(s)",
+            "message": "Please, provide your question in text format along with photo(s)",
+            "translation": "Please, provide your question in text format along with photo(s)",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Please, provide at least one photo",
+            "message": "Please, provide at least one photo",
+            "translation": "Please, provide at least one photo",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Please, provide no more than {MaxAllowedPhotos} photo(s)",
+            "message": "Please, provide no more than {MaxAllowedPhotos} photo(s)",
+            "translation": "Please, provide no more than {MaxAllowedPhotos} photo(s)",
+            "translatorComment": "Copied from source.",
+            "placeholders": [
+                {
+                    "id": "MaxAllowedPhotos",
+                    "string": "%[1]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "maxAllowedPhotos"
+                }
+            ],
+            "fuzzy": true
+        },
+        {
+            "id": "Sorry, I encountered an error while processing your request. Please try again later.",
+            "message": "Sorry, I encountered an error while processing your request. Please try again later.",
+            "translation": "Sorry, I encountered an error while processing your request. Please try again later.",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Provided date cannot be in the future. Please provide a valid date.",
+            "message": "Provided date cannot be in the future. Please provide a valid date.",
+            "translation": "Provided date cannot be in the future. Please provide a valid date.",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Please provide a date in the valid format YYYY-MM-DD (e.g., 2023-12-31)",
+            "message": "Please provide a date in the valid format YYYY-MM-DD (e.g., 2023-12-31)",
+            "translation": "Please provide a date in the valid format YYYY-MM-DD (e.g., 2023-12-31)",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Pet profile saved successfully",
+            "message": "Pet profile saved successfully",
+            "translation": "Pet profile saved successfully",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "What is your pet's name?",
+            "message": "What is your pet's name?",
+            "translation": "What is your pet's name?",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "What type of pet do you have?",
+            "message": "What type of pet do you have?",
+            "translation": "What type of pet do you have?",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "dog",
+            "message": "dog",
+            "translation": "dog",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "cat",
+            "message": "cat",
+            "translation": "cat",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "What breed is your pet?",
+            "message": "What breed is your pet?",
+            "translation": "What breed is your pet?",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "When was your pet born? Please enter the date in the format YYYY-MM-DD (e.g., 2010-12-31).",
+            "message": "When was your pet born? Please enter the date in the format YYYY-MM-DD (e.g., 2010-12-31).",
+            "translation": "When was your pet born? Please enter the date in the format YYYY-MM-DD (e.g., 2010-12-31).",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "What is your pet's gender?",
+            "message": "What is your pet's gender?",
+            "translation": "What is your pet's gender?",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "male",
+            "message": "male",
+            "translation": "male",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "female",
+            "message": "female",
+            "translation": "female",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "What is your pet's weight? Please specify the weight followed by the unit, e.g., 5 kg",
+            "message": "What is your pet's weight? Please specify the weight followed by the unit, e.g., 5 kg",
+            "translation": "What is your pet's weight? Please specify the weight followed by the unit, e.g., 5 kg",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Is your pet spayed or neutered?",
+            "message": "Is your pet spayed or neutered?",
+            "translation": "Is your pet spayed or neutered?",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "yes",
+            "message": "yes",
+            "translation": "yes",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "no",
+            "message": "no",
+            "translation": "no",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "How would you describe your pet's activity level?",
+            "message": "How would you describe your pet's activity level?",
+            "translation": "How would you describe your pet's activity level?",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "low",
+            "message": "low",
+            "translation": "low",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "medium",
+            "message": "medium",
+            "translation": "medium",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "high",
+            "message": "high",
+            "translation": "high",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Does your pet have any chronic diseases?",
+            "message": "Does your pet have any chronic diseases?",
+            "translation": "Does your pet have any chronic diseases?",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "What are your pet's food preferences or dietary restrictions?",
+            "message": "What are your pet's food preferences or dietary restrictions?",
+            "translation": "What are your pet's food preferences or dietary restrictions?",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        }
+    ]
+}
