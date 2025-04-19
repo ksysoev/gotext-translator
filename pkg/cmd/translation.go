@@ -7,6 +7,8 @@ import (
 	"log/slog"
 	"os"
 	"path/filepath"
+
+	"github.com/ksysoev/gotext-translator/pkg/translator"
 )
 
 type GotextMessage struct {
@@ -41,8 +43,22 @@ func runTranslation(ctx context.Context, cfg *Config) error {
 
 	gotextFile.Language = globalArgs.TargetLang
 
-	// Initialize translator service based on config
-	translator, err := initTranslator(cfg)
+	// Initialize translator factory
+	factory := translator.NewFactory()
+	translator.RegisterProviders(factory)
+
+	// Create translator instance
+	config := map[string]interface{}{
+		"api_key": cfg.LLM.APIKey,
+		"model":   cfg.LLM.Model,
+	}
+
+	// Add any additional options from config
+	for k, v := range cfg.LLM.Options {
+		config[k] = v
+	}
+
+	trans, err := factory.CreateTranslator(cfg.LLM.Provider, config)
 	if err != nil {
 		return fmt.Errorf("failed to initialize translator: %w", err)
 	}
@@ -56,9 +72,12 @@ func runTranslation(ctx context.Context, cfg *Config) error {
 			continue
 		}
 
-		translation, err := translator.Translate(ctx, msg.Message, gotextFile.Language)
+		translation, err := trans.Translate(ctx, msg.Message, gotextFile.Language)
 		if err != nil {
-			return fmt.Errorf("failed to translate message %q: %w", msg.ID, err)
+			slog.Error("failed to translate message",
+				slog.String("id", msg.ID),
+				slog.String("error", err.Error()))
+			continue
 		}
 
 		msg.Translation = translation

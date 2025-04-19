@@ -8,9 +8,10 @@ import (
 )
 
 type LLMConfig struct {
-	Provider string `mapstructure:"provider"`
-	APIKey   string `mapstructure:"api_key"`
-	Model    string `mapstructure:"model"`
+	Provider string            `mapstructure:"provider"`
+	APIKey   string            `mapstructure:"api_key"`
+	Model    string            `mapstructure:"model"`
+	Options  map[string]string `mapstructure:"options"`
 }
 
 type Config struct {
@@ -44,6 +45,9 @@ func initConfig(arg *args) (*Config, error) {
 	}
 	if cfg.LLM.Model == "" {
 		cfg.LLM.Model = "gpt-3.5-turbo"
+	}
+	if cfg.LLM.Options == nil {
+		cfg.LLM.Options = make(map[string]string)
 	}
 
 	return &cfg, nil

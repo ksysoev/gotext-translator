@@ -4,8 +4,10 @@ llm:
   api_key: sk-your-openai-api-key
   model: gpt-3.5-turbo  # or gpt-4, etc.
 
-# Anthropic Configuration
+# OpenRouter Configuration
 # llm:
-#   provider: anthropic
-#   api_key: sk-ant-your-anthropic-api-key
-#   model: claude-3-haiku  # or claude-3-opus, claude-3-sonnet, etc.
+#   provider: openrouter
+#   api_key: your-openrouter-api-key
+#   model: openai/gpt-3.5-turbo  # or anthropic/claude-3-opus, mistralai/mistral-tiny, etc.
+#   options:
+#     route_prefix: gotext-translator
