@@ -7,13 +7,15 @@ import (
 )
 
 type args struct {
-	version    string
-	LogLevel   string
-	ConfigPath string
-	SourcePath string
-	TargetLang string
-	OutputPath string
-	TextFormat bool
+	version      string
+	LogLevel     string
+	ConfigPath   string
+	SourcePath   string
+	SourceDir    string
+	TargetLang   string
+	OutputPath   string
+	TextFormat   bool
+	ForceRewrite bool
 }
 
 // InitCommands initializes and returns the root command for the application.
@@ -37,13 +39,13 @@ func InitCommands(version string) (*cobra.Command, error) {
 	return cmd, nil
 }
 
-// translateCommand creates a new cobra.Command to start translation process.
+// translateCommand creates a cobra.Command to translate a single file
 func translateCommand(args *args) *cobra.Command {
 	SetArgs(args) // Store args globally for translation use
 	cmd := &cobra.Command{
 		Use:   "translate",
-		Short: "Start translation process",
-		Long:  "Start translation process for untranslated strings",
+		Short: "Translate a single file",
+		Long:  "Translate a single gotext localization file",
 		RunE: func(cmd *cobra.Command, _ []string) error {
 			if err := initLogger(args); err != nil {
 				return fmt.Errorf("failed to initialize logger: %w", err)
