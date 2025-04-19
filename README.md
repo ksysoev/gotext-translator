@@ -7,7 +7,7 @@ A CLI utility for automatically translating untranslated strings in gotext local
 - Processes gotext JSON format files
 - Identifies and translates only untranslated strings (empty translation field)
 - Model-agnostic architecture with support for multiple LLM providers
-- Current providers: OpenAI and OpenRouter (with more planned)
+- Current providers: OpenAI, Anthropic, and OpenRouter (with more planned)
 - Preserves JSON structure, placeholders, and special formatting
 - Configurable via file or environment variables
 - Interactive translation process with progress tracking
@@ -93,6 +93,14 @@ llm:
 ```
 
 ```yaml
+# For Anthropic:
+llm:
+  provider: anthropic
+  api_key: your-anthropic-api-key
+  model: claude-3-haiku-20240307  # or claude-3-opus-20240229, claude-3-sonnet-20240229, etc.
+```
+
+```yaml
 # For OpenRouter:
 llm:
   provider: openrouter
@@ -106,15 +114,22 @@ llm:
 
 Instead of using a configuration file, you can set the following environment variables:
 
-- `LLM_PROVIDER`: LLM provider ("openai" or "openrouter")
+- `LLM_PROVIDER`: LLM provider ("openai", "anthropic", or "openrouter")
 - `LLM_API_KEY`: API key for the LLM provider
-- `LLM_MODEL`: Model name (e.g., "gpt-3.5-turbo" for OpenAI or "anthropic/claude-3-haiku" for OpenRouter)
+- `LLM_MODEL`: Model name (e.g., "gpt-3.5-turbo" for OpenAI or "claude-3-haiku-20240307" for Anthropic)
 
 Example for OpenAI:
 ```bash
 export LLM_PROVIDER=openai
 export LLM_API_KEY=your-openai-api-key
 export LLM_MODEL=gpt-3.5-turbo
+```
+
+Example for Anthropic:
+```bash
+export LLM_PROVIDER=anthropic
+export LLM_API_KEY=your-anthropic-api-key
+export LLM_MODEL=claude-3-haiku-20240307
 ```
 
 Example for OpenRouter:

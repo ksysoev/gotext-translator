@@ -7,9 +7,9 @@ func RegisterProviders(factory Factory) {
 	providers := []Provider{
 		&OpenAIProvider{},
 		&OpenRouterProvider{},
+		&AnthropicProvider{},
 		// Future providers to be added:
 		// &LangChainProvider{},
-		// &AnthropicProvider{},
 	}
 
 	for _, provider := range providers {

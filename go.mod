@@ -3,7 +3,7 @@ module github.com/ksysoev/gotext-translator
 go 1.24.1
 
 require (
-	github.com/anthropics/anthropic-sdk-go v0.2.0-alpha.13 // indirect
+	github.com/anthropics/anthropic-sdk-go v0.2.0-beta.3 // indirect
 	github.com/fsnotify/fsnotify v1.8.0 // indirect
 	github.com/go-viper/mapstructure/v2 v2.2.1 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
